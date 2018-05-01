@@ -19,7 +19,7 @@ class ContactList extends Component {
         const list = this.props.contacts.map((item, index) => {
             return <ContactCard key={index} contact={item} />
         });
-        console.log('Contact Data', this.state.contacts);
+        // console.log('Contact Data', this.state.contacts);
         return (
             <div className="col-8" >
                 <div className="row">

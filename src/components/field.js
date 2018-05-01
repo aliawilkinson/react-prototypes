@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default (props) => {
-    // console.log(props);
+export default props => {
+    console.log(props)
     return (
         <div className="form-group">
             <label>{props.label}</label>
-            <input{...props} className="form-control" />
+            <input {...props} className="form-control" />
         </div>
     )
 }
