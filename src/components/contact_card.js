@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default (props) => {
-    // console.log(props)
     const { firstName, lastName, phone, email } = props.contact;
     return (
         <div className="col-6 my-3">
